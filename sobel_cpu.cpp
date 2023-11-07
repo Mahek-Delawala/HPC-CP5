@@ -49,6 +49,39 @@ sobel_filtered_pixel(float *s, int i, int j , int ncols, int nrows, float *gx, f
    // ADD CODE HERE: add your code here for computing the sobel stencil computation at location (i,j)
    // of input s, returning a float
 
+
+
+   //detects where gradient is detected in the horizontal dimension of the image
+   float gradientX = gx[0]*s[(i * ncols + j)-ncols-1] + 
+                     gx[1]*s[(i * ncols + j)-ncols] + 
+                     gx[2]*s[(i * ncols + j)-(ncols+1)] + 
+                     gx[3]*s[(i * ncols + j)-1] + 
+                     gx[4]*s[(i * ncols + j)] + 
+                     gx[5]*s[(i * ncols + j)+1] + 
+                     gx[6]*s[(i * ncols + j)+ncols-1] + 
+                     gx[7]*s[(i * ncols + j)+ncols] + 
+                     gx[8]*s[(i * ncols + j)+ncols+1];
+   
+
+
+   //detects where gradient is detected in the vertical dimension of the image
+   float gradientY = gy[0]*s[(i * ncols + j)-ncols-1] + 
+                     gy[1]*s[(i * ncols + j)-ncols] + 
+                     gy[2]*s[(i * ncols + j)-(ncols+1)] + 
+                     gy[3]*s[(i * ncols + j)-1] + 
+                     gy[4]*s[(i * ncols + j)] + 
+                     gy[5]*s[(i * ncols + j)+1] + 
+                     gy[6]*s[(i * ncols + j)+ncols-1] + 
+                     gy[7]*s[(i * ncols + j)+ncols] + 
+                     gy[8]*s[(i * ncols + j)+ncols+1];
+
+ 
+
+   float gradientXSqaured = pow(gradientX, 2);
+   float gradientYSqaured = pow(gradientY, 2);
+
+   t = sqrt(gradientXSqaured + gradientYSqaured);
+
    return t;
 }
 
@@ -73,6 +106,22 @@ do_sobel_filtering(float *in, float *out, int ncols, int nrows)
 
    // ADD CODE HERE: insert your code here that iterates over every (i,j) of input,  makes a call
    // to sobel_filtered_pixel, and assigns the resulting value at location (i,j) in the output.
+
+   float size = ncols*nrows;
+   //Initialise the ouput file with the same size as input and all values as 0.0
+   for (int x = 0; x < size; x++){
+      out[x] = 0.0;
+   }
+ 
+   int rows_length = nrows - 1;
+   int cols_length = ncols - 1;
+
+   #pragma omp parallel for collapse(2)
+   for (int row = 1; row < rows_length; row++) {
+      for (int col = 1; col < cols_length; col++) {
+         out[col + row*ncols] = sobel_filtered_pixel(in, row, col, ncols, nrows, Gx, Gy);
+      }
+   }
 
 }
 
