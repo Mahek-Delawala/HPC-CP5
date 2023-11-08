@@ -1,0 +1,336 @@
+Threads Per Block=32 nBlocks=1
+==PROF== Connected to process 214562 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 32 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 214562
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=64 nBlocks=1
+==PROF== Connected to process 214594 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 64 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 214594
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=128 nBlocks=1
+==PROF== Connected to process 214649 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 128 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 214649
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=256 nBlocks=1
+==PROF== Connected to process 214839 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 256 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 214839
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=512 nBlocks=1
+==PROF== Connected to process 215459 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 512 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 215459
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=1024 nBlocks=1
+==PROF== Connected to process 215491 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 1024 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 215491
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=32 nBlocks=4
+==PROF== Connected to process 215523 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 32 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 215523
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=64 nBlocks=4
+==PROF== Connected to process 215557 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 64 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 215557
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=128 nBlocks=4
+==PROF== Connected to process 215613 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 128 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 215613
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=256 nBlocks=4
+==PROF== Connected to process 215645 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 256 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 215645
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=512 nBlocks=4
+==PROF== Connected to process 215677 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 512 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 215677
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=1024 nBlocks=4
+==PROF== Connected to process 215709 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 1024 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 215709
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=32 nBlocks=16
+==PROF== Connected to process 215741 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 32 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 215741
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=64 nBlocks=16
+==PROF== Connected to process 215773 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 64 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 215773
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=128 nBlocks=16
+==PROF== Connected to process 215805 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 128 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 215805
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=256 nBlocks=16
+==PROF== Connected to process 215860 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 256 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 215860
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=512 nBlocks=16
+==PROF== Connected to process 215892 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 512 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 215892
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=1024 nBlocks=16
+==PROF== Connected to process 215924 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 1024 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 215924
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=32 nBlocks=64
+==PROF== Connected to process 215959 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 32 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 215959
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=64 nBlocks=64
+==PROF== Connected to process 215991 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 64 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 215991
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=128 nBlocks=64
+==PROF== Connected to process 216023 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 128 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 216023
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=256 nBlocks=64
+==PROF== Connected to process 216055 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 256 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 216055
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=512 nBlocks=64
+==PROF== Connected to process 216106 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 512 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 216106
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=1024 nBlocks=64
+==PROF== Connected to process 216140 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 1024 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 216140
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=32 nBlocks=256
+==PROF== Connected to process 216172 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 32 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 216172
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=64 nBlocks=256
+==PROF== Connected to process 216951 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 64 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 216951
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=128 nBlocks=256
+==PROF== Connected to process 216983 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 128 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 216983
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=256 nBlocks=256
+==PROF== Connected to process 217015 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 256 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 217015
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=512 nBlocks=256
+==PROF== Connected to process 217047 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 512 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 217047
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=1024 nBlocks=256
+==PROF== Connected to process 217079 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 1024 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 217079
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=32 nBlocks=1024
+==PROF== Connected to process 217136 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 32 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 217136
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=64 nBlocks=1024
+==PROF== Connected to process 217168 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 64 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 217168
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=128 nBlocks=1024
+==PROF== Connected to process 217200 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 128 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 217200
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=256 nBlocks=1024
+==PROF== Connected to process 217232 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 256 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 217232
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=512 nBlocks=1024
+==PROF== Connected to process 217264 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 512 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 217264
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=1024 nBlocks=1024
+==PROF== Connected to process 217297 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 1024 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 217297
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=32 nBlocks=4096
+==PROF== Connected to process 217352 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 32 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 217352
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=64 nBlocks=4096
+==PROF== Connected to process 217384 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 64 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 217384
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=128 nBlocks=4096
+==PROF== Connected to process 217416 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 128 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 217416
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=256 nBlocks=4096
+==PROF== Connected to process 217744 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 256 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 217744
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=512 nBlocks=4096
+==PROF== Connected to process 218249 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 512 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 218249
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
+Threads Per Block=1024 nBlocks=4096
+==PROF== Connected to process 218324 (/global/u1/m/mahek/mahek_hpc/CP5/sobel-harness-instructional/build/sobel_gpu)
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 1024 blocks, 0 threads per block 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==PROF== Disconnected from process 218324
+==WARNING== No kernels were profiled.
+==WARNING== Profiling kernels launched by child processes requires the --target-processes all option.
