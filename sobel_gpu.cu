@@ -64,6 +64,40 @@ sobel_filtered_pixel(float *s, int i, int j , int ncols, int nrows, float *gx, f
    // ADD CODE HERE:  add your code here for computing the sobel stencil computation at location (i,j)
    // of input s, returning a float
 
+   float gradientY = 0.0;
+   float gradientX = 0.0;
+   if ((i > 0 && i < nrows -1) && (j > 0 && j < ncols -1)){
+      //detects where gradient is detected in the horizontal dimension of the image
+      gradientX = gradientX +
+                  gx[0]*s[(i * ncols + j)-ncols-1] +
+                  gx[1]*s[(i * ncols + j)-ncols] +
+                  gx[2]*s[(i * ncols + j)-(ncols+1)] +
+                  gx[3]*s[(i * ncols + j)-1] +
+                  gx[4]*s[(i * ncols + j)] +
+                  gx[5]*s[(i * ncols + j)+1] +
+                  gx[6]*s[(i * ncols + j)+ncols-1] +
+                  gx[7]*s[(i * ncols + j)+ncols] +
+                  gx[8]*s[(i * ncols + j)+ncols+1];
+
+      //detects where gradient is detected in the vertical dimension of the image
+
+      gradientY = gradientY +
+                  gy[0]*s[(i * ncols + j)-ncols-1] +
+                  gy[1]*s[(i * ncols + j)-ncols] +
+                  gy[2]*s[(i * ncols + j)-(ncols+1)] +
+                  gy[3]*s[(i * ncols + j)-1] +
+                  gy[4]*s[(i * ncols + j)] +
+                  gy[5]*s[(i * ncols + j)+1] +
+                  gy[6]*s[(i * ncols + j)+ncols-1] +
+                  gy[7]*s[(i * ncols + j)+ncols] +
+                  gy[8]*s[(i * ncols + j)+ncols+1];
+      }
+
+   float gradientXSqaured = pow(gradientX, 2);
+   float gradientYSqaured = pow(gradientY, 2);
+
+   t = sqrt(gradientXSqaured + gradientYSqaured);
+
    return t;
 }
 
@@ -95,6 +129,17 @@ sobel_kernel_gpu(float *s,  // source image pixels
 
    // because this is CUDA, you need to use CUDA built-in variables to compute an index and stride
    // your processing motif will be very similar here to that we used for vector add in Lab #2
+
+   int stride = blockDim.x * gridDim.x;
+
+   for (int index = blockIdx.x * blockDim.x + threadIdx.x; index < n; index += stride){
+      int row = index / ncols;
+      int col = index % ncols;
+
+      d[index] = sobel_filtered_pixel(s, row, col, ncols, nrows, gx, gy);
+
+   }
+
 }
 
 int
@@ -157,7 +202,10 @@ main (int ac, char *av[])
    int nBlocks=1, nThreadsPerBlock=256;
 
    // ADD CODE HERE: insert your code here to set a different number of thread blocks or # of threads per block
-
+   if (ac > 1){
+      nThreadsPerBlock = atoi(av[1]);
+      nBlocks = atoi(av[2]);
+   }
 
 
    printf(" GPU configuration: %d blocks, %d threads per block \n", nBlocks, nThreadsPerBlock);
